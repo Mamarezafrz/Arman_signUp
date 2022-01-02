@@ -1,0 +1,13 @@
+.paper{
+    padding: 30px 20px;
+    min-height: 70vh;
+    width: 380px;
+    margin: 40px auto;
+}
+.avatar{
+    background-color: #1bbd7e !important;
+}
+
+.formInp{
+    margin: 5px 0px !important;
+}

@@ -1,0 +1,15 @@
+.paper{
+    padding: 20px;
+    height: 70vh;
+    width: 380px;
+    margin: 20px auto;
+}
+.avatar{
+    background-color: #1bbd7e !important;
+}
+.loginBtn{
+    margin: 20px 0px !important;
+}
+.formInp{
+    margin: 5px 0px !important;
+}
