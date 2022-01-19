@@ -4,14 +4,14 @@ import LoginForm from '../../components/auth/login';
 
 
 const AuthPage = () =>{
-    const [status,setStatus] = useState(false)
+    const [status,setStatus] = useState('Register')
 
     return(
         <div>
-            {!status ?
-                (<RegisterForm setStatus={(e) => setStatus(e)}/>) : (<LoginForm/>)               
+            {status ==='Register' ?
+                (<RegisterForm setStatus={(value) => setStatus(value)}/>) : (<LoginForm/>)               
             }
-            
+
         </div>
     );
 }
